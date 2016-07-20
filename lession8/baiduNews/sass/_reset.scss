@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+    font-family: "microsoft yahei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+a,
+button,
+span {
+    -webkit-font-smoothing: antialiased;
+}
+
+input {
+    outline: none;
+}
+
+
+.cf {
+  *zoom: 1;
+  _height: 1%;
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+  overflow: hidden;
+}
+
+.hide{
+  display:none;
+}
+
+.rotate180{
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

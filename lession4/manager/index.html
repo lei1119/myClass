@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>采用Bootstrap开发后台首页</title>
+    <!-- Bootstrap -->
+    <link href="./stylesheet/bootstrap.min.css" rel="stylesheet">
+    <link href="./stylesheet/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="percentage">
+        <div class="row percentage">
+            <!--左边-->
+            <div class="col-md-2 col-sm-2 leftBg">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="#">菜单</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">首页</a></li>
+                            <li><a href="#">菜单一</a></li>
+                            <li><a href="#">菜单二</a></li>
+                            <li><a href="#">菜单三</a></li>
+                            <li><a href="#">菜单四</a></li>
+                            <li><a href="#">菜单五</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--左边结束-->
+            <!--右边-->
+            <div class="col-md-10 col-sm-10 rightMaim">
+                <h3>首页</h3>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table noneB">
+                    <figure>
+                        <h4>基本信息</h4>
+                    </figure>
+                    <tr>
+                        <td class="active text-right">机购ID：</td>
+                        <td>QL123456</td>
+                        <td class="active text-right">机购名称：</td>
+                        <td>XXXXXX</td>
+                    </tr>
+                    <tr>
+                        <td class="active text-right">机购状态：</td>
+                        <td>正常</td>
+                        <td class="active text-right">所属级别：</td>
+                        <td>省级</td>
+                    </tr>
+                    <tr>
+                        <td class="active text-right">推荐机购ID：</td>
+                        <td>QL123456</td>
+                        <td class="active text-right">推荐机购名称：</td>
+                        <td>QL123456</td>
+                    </tr>
+                    <tr>
+                        <td class="active text-right">登录次数：</td>
+                        <td>5次</td>
+                        <td class="active text-right">注册开通时间：</td>
+                        <td>2015-05-04 18：18</td>
+                    </tr>
+                    <tr>
+                        <td class="active text-right">最后登录时间：</td>
+                        <td>2015-05-04 18：18</td>
+                        <td class="active text-right">最近更改蜜码时间：</td>
+                        <td>2015-05-04 18：18<a href="#">修改登录密码</a></td>
+                    </tr>
+                </table>
+                <hr>
+                <h4>账户余额<small>每月月底结算本月收入</small></h4>
+                <h2 class="price">1280.00
+        <button type="button" class="btn btn-org">提 现</button>
+        <small>500元起可以提现，每日最多10000元，每次提现收入5%手续费</small></h2>
+                <hr>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table table-bordered tableCenter">
+                    <tr>
+                        <th align="center" class="active">总收入</th>
+                        <th align="center" class="active">消费佣金收入</th>
+                        <th align="center" class="active">会员发展收入</th>
+                        <th align="center" class="active">推荐佣金收入</th>
+                    </tr>
+                    <tr>
+                        <td align="center">1520620</td>
+                        <td align="center">1520620</td>
+                        <td align="center">1520620</td>
+                        <td align="center">1520620</td>
+                    </tr>
+                </table>
+                <hr>
+                <h4>我的推广机购链接</h4>
+                <div class="input-group col-md-8">
+                    <input type="text" class="form-control" placeholder="http://www.baidu.com" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">点击复制</span> </div>
+            </div>
+            <!--右边结束-->
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

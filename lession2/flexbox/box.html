@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./stylesheet/box.css">
+    <title>盒子模型</title>
+</head>
+
+<body>
+    <div>
+        <div class="box">
+            <div class="shoe">鞋子</div>
+        </div>
+        <hr>
+        <div class="box2">
+            <div class="shoe2">怪异盒模型</div>
+        </div>
+        <hr>
+        <div class="columns">
+            <img src="./images/rabbit.png"> 上一篇我们对React有了一个总体的认识，在介绍其中的技术细节之前，我们首先来了解一下用于React开发和模块管理的主流工具Webpack。称之为React开发神器有点标题党了，不过Webpack确实是笔者见过的功能最为强大的前端模块管理和打包工具。虽然Webpack是一个通用的工具，并不只适合于React，但是很多React的文章或者项目都使用了Webpack，尤其是react-hot-loader这样的神器存在，让Webpack成为最主流的React开发工具。 CommonJS和AMD是用于JavaScript模块管理的两大规范，前者定义的是模块的同步加载，主要用于NodeJS；而后者则是异步加载，通过requirejs等工具适用于前端。随着npm成为主流的JavaScript组件发布平台，越来越多的前端项目也依赖于npm上的项目，或者自身就会发布到npm平台。因此，让前端项目更方便的使用npm上的资源成为一大需求。于是诞生了类似browserify这样的工具，代码中可以使用require函数直接以同步语法形式引入npm模块，打包后再由浏览器执行。
+        </div>
+    </div>
+</body>
+
+</html>

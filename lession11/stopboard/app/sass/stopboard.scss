@@ -1,0 +1,115 @@
+@charset 'utf-8';
+@import 'reset';
+$white: #FFF;
+$black: #000;
+$green: #008E00;
+$red: #F00;
+
+.stopboard {
+	position: absolute;
+	width: 80rem;
+	height: 50rem;
+	margin: 1rem auto;
+	left: 50%;
+	margin-left: -40rem;
+}
+
+
+.header{
+	position: absolute;
+	width: 100%
+}
+
+.lineName{
+	position: absolute;
+	width: 25rem;
+	height: 12rem;
+	background-color: $red;
+	font-size: 12rem;
+	line-height: 12rem;
+	text-align: right;
+	padding-right: 1rem;
+	margin-top: 1rem;
+	color: $white;
+}
+
+
+.lineTime{
+	// position: absolute;
+	margin-top: 13.5rem;
+	width: 23rem;
+	height: 1.5rem;
+	color: $black;
+	font-size: 1.5rem;
+	text-align: right;
+}
+
+.info{	
+	position: absolute;
+	width: 40rem;
+	height: 10rem;
+	right: 3rem;
+	color: $green;
+	text-align:center;
+	margin-top: 1rem;
+}
+
+.info .name1{
+	font-size: 5rem;
+}
+
+.info .name2{
+	font-size: 2rem;
+	width: 100%;
+	text-align: right;
+	padding-right: 0.5rem;
+}
+
+.info .currentName{
+	margin-top: 0.5rem;
+	font-size: 2.5rem;
+	color: $red;
+}
+
+.station {
+	width: 100;
+	height: 23rem;
+	background-color: $green;
+	margin-top: 16rem;
+}
+
+.station li{
+	width: 3rem;
+	height: 23rem;
+	font-size: 3rem;
+	float: left; 
+	list-style:none; 
+	margin-left: 3.5rem;
+	color: $white;
+}
+
+.ticket{
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.ticket p{
+	font-size: 2rem;
+	color: black;
+}
+
+.ticket .arrow1{
+	width: 60rem;
+	height: .5rem;
+	background-color: $red;
+	margin-left: 5rem;
+}
+
+.ticket .arrow2{
+	width: 0;
+    height: 0;
+    border-bottom: 2rem solid $red;
+    border-right: 10rem solid transparent;
+    margin-top: -2rem;
+    margin-left: 65rem;
+}

@@ -1,0 +1,367 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-width: 1024px;
+    min-height: 800px;
+}
+
+
+/*-- header --*/
+
+.header-part {
+    margin: 1.5em 0;
+}
+
+.head-logo {
+    float: left;
+}
+
+.top-nav {
+    float: right;
+}
+
+.top-nav1 {
+    float: right;
+}
+
+.top-nav span {
+    display: none;
+}
+
+.top-nav1 span {
+    display: none;
+}
+
+.top-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin: .5em 2em 0;
+}
+
+.top-nav ul li a {
+    color: #97999B;
+    font-size: 17px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.top-nav ul li a:hover {
+    color: #5DC9C9;
+    text-decoration: none;
+    padding: 1.4em 0 0;
+    border-top: 3px solid #5DC9C9;
+}
+
+.head-logo a {
+    display: block;
+}
+
+.top-nav p {
+    margin: 2.1em 0;
+}
+
+.top-nav p a:hover {
+    color: #5DC9C9;
+    text-decoration: none;
+}
+
+
+/*-- //header --*/
+
+
+/*-- banner --*/
+
+.banner {
+    background: url(../images/1.jpg) no-repeat 0px -165px;
+    background-size: cover;
+    min-height: 550px;
+    width: 100%;
+}
+
+.banner-info {
+    text-align: center;
+    margin-top: 12em;
+}
+
+.banner-info h2 {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+    margin: 0;
+}
+
+.banner-info p {
+    margin: 2em 0 4em;
+    font-size: 22px;
+    color: #fff;
+}
+
+.more {
+    text-align: center;
+}
+
+.more a {
+    padding: 14px 0px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+    background: url(../images/1.png) no-repeat 10em 1.4em #5DC9C9;
+    width: 16%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.more a:hover {
+    text-decoration: none;
+    color: #5DC9C9;
+    border: 1px solid #5DC9C9;
+    background: url(../images/1-.png) no-repeat 10em 1.4em #fff;
+    display: block;
+}
+
+
+/*-- //banner --*/
+
+
+/*-- banner-bottom --*/
+
+.banner-bottom {
+    padding: 3em 0;
+}
+
+.banner-bottom-left {
+    float: left;
+    width: 30%;
+}
+
+.banner-bottom-mid {
+    margin: 0 2em;
+}
+
+.grid-mid {
+    margin: 0 2em;
+}
+
+.fig {
+    background: url(../images/2.png) no-repeat 10em 0em;
+    display: block;
+    width: 100%;
+    height: 61px;
+}
+
+.fig:hover {
+    transform: rotateY(360deg);
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.fig1 {
+    background: url(../images/3.png) no-repeat 10em 0em;
+    display: block;
+    width: 100%;
+    height: 61px;
+}
+
+.fig1:hover {
+    transform: rotateY(360deg);
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.fig2 {
+    background: url(../images/4.png) no-repeat 10em 0em;
+    display: block;
+    width: 100%;
+    height: 61px;
+}
+
+.fig2:hover {
+    transform: rotateY(360deg);
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.banner-bottom-left {
+    text-align: center;
+}
+
+.banner-bottom-left h3 {
+    color: #292C34;
+    margin: 1em 0 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-bottom-left p {
+    color: #97999B;
+    margin: .5em 0;
+    font-size: 14px;
+}
+
+.banner-bottom-left p span {
+    display: block;
+}
+
+.banner-bottom-text {
+    margin: 6em 0;
+    text-align: center;
+}
+
+.banner-bottom-text p {
+    color: #5DC9C9;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.banner-bottom-text p span {
+    display: block;
+}
+
+
+/*-- footer --*/
+
+.footer {
+    background: #292C34;
+    padding: 2em 0;
+    margin-top: 20em;
+}
+
+.footer-left {
+    float: left;
+    width: 60%;
+}
+
+.footer-left-logo {
+    float: left;
+    width: 9%;
+}
+
+.footer-left-logo span {
+    background: url(../images/logo1.png) no-repeat 0px 0px;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.footer-left-text {
+    float: left;
+    padding: 9px 0 0;
+}
+
+.footer-left-text p {
+    color: #97999B;
+    margin: 0;
+    font-size: 15px;
+}
+
+.footer-left-text p a {
+    color: #5DC9C9;
+    font-size: 15px;
+}
+
+.footer-left-text p a:hover {
+    text-decoration: none;
+    color: #97999B;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-right ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.footer-right ul li a.facebook {
+    background: url(../images/sp-img.png) no-repeat 0px 0px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.footer-right ul li a.facebook:hover {
+    background: url(../images/sp-img.png) no-repeat 0px -34px;
+    display: block;
+}
+
+.footer-right ul li a.twitter {
+    background: url(../images/sp-img.png) no-repeat -30px 0px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.footer-right ul li a.twitter:hover {
+    background: url(../images/sp-img.png) no-repeat -30px -36px;
+    display: block;
+}
+
+.footer-right ul li a.dribble {
+    background: url(../images/sp-img.png) no-repeat -65px 0px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.footer-right ul li a.dribble:hover {
+    background: url(../images/sp-img.png) no-repeat -65px -33px;
+    display: block;
+}
+
+/*-- //footer --*/

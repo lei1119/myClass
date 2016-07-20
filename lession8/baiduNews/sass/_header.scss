@@ -1,0 +1,121 @@
+.index-view {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+  .toolbar {
+    background-image: url(http://ns14.bdstatic.com//static/news/webapp/webappandroid/img/bg-news-logo_344ce44.png);
+    background-repeat: no-repeat;
+    background-position: center 6px;
+    -webkit-background-size: 77px auto;
+    background-size: 77px auto;
+  }
+}
+
+.toolbar {
+  position: relative;
+  min-width: 320px;
+  height: 44px;
+  z-index: 2;
+  background-color: #3e98f0;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+}
+
+.toolbar-l,
+.toolbar-r {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+.toolbar-l {
+  top: 0;
+  left: 0;
+}
+
+.toolbar-r {
+  top: 0;
+  right: 0;
+}
+
+.ui-new-toolbar-btn {
+  width: 34px;
+  height: 100%;
+  font-size: 15px;
+  line-height: 44px;
+  display: inline-block;
+}
+
+.btn-search,
+.btn-baidu,
+.btn-userhome,
+.btn-subscribe,
+.btn-back {
+  border: 0;
+  background-image: url(../images/bg-new-toolbar_6e9bc53.png);
+  -webkit-background-size: 40px 500px;
+  background-size: 40px 500px;
+  background-repeat: no-repeat;
+}
+
+.btn-baidu {
+  background-position: center 4px;
+}
+
+.btn-userhome {
+  background-position: center -464px;
+  margin-left: 10px;
+}
+
+.btn-search {
+  background-position: center -162px;
+  margin-right: 10px;
+}
+
+.btn-subscribe {
+  background-position: center -107px;
+}
+
+.btn-back{
+  background-position: center -216px;
+}
+
+.index-navigator {
+  background-color: #3e98f0;
+  border-top: 1px solid #5dabf0;
+  color: #f9f9f9;
+  table {
+    width: 100%;
+    td {
+      position: relative;
+      height: 33px;
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 400;
+      text-align: center;
+      b {
+        position: absolute;
+      }
+      &:first-child {
+        b {
+          border: 0;
+        }
+      }
+      span.cur {
+        border-bottom: 1px solid #fff;
+        margin: 0 2px;
+      }
+      span {
+        padding-bottom: 3px;
+        border-bottom: 2px solid transparent;
+        color: #fff;
+        white-space: nowrap;
+        margin: 0 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+
+
+/*nav根据尺寸不同切换，适配移动端和PC端*/
+
+@media screen and (min-width: 979px){
+  .nav_list_m{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 979px){
+  .nav_list_web{
+    display:none;
+  }
+  .nav_list_m{
+    display:block;
+  }
+}
+
+
+/*搜索框根据屏幕尺寸进行适配*/
+
+@media screen and (max-width: 365px) and (min-width:320px){
+  .index_search_ipt{
+    width: 65%;
+  }
+}
+
+@media screen and (max-width:550px) and (min-width:365px){
+  .index_search_ipt{
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:550px) and (max-width:979px){
+  .index_search_ipt{
+    width:80%;
+  }
+}
+
+@media screen and (min-width:979px){
+  .form{width:640px;}
+  .index_search_ipt{
+    width:539px;
+  }
+}
+
+
+.footer {
+  height: 100px;
+  position: absolute;
+  bottom: 23px;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+@media screen and (min-width:979px){
+  .foot_wrap{
+    width: 640px;
+  }
+  .qrcode{
+    display:inline-block;
+  }
+  .foot_info{
+    float:right;
+  }
+  .foot_info{
+    text-align:left;
+  }
+  .foot_link a{
+    margin-left:62px;
+  }
+}
+
+@media screen and (max-width:979px){
+  .foot_wrap{
+    width: 100%;
+  }
+  .qrcode{
+    display:none;
+  }
+  .foot_ver_info{
+    display:none;
+  }
+  .foot_info{
+    text-align:center;
+  }
+  .foot_link a{margin-left: 20px;}
+}

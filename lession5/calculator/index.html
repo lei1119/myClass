@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./stylesheet/calculator.css">
+    <title>计算器</title>
+</head>
+
+<body>
+    <div class="caldiv">
+        <form onsubmit="return false">
+            <input id="x" type="float" name="x" placeholder="请输入数字" class="number">
+            <select id="cal" name="cal">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input id="y" type="float" name="y" placeholder="请输入数字" class="number">
+            <input type="submit" name="submit" value="计算" onclick="calFunc()" class="btn">
+            <p>结果</p>
+            <p id="show"></p>
+        </form>
+    </div>
+    <script type="text/javascript" src="./js/calculator.js"></script>
+</body>
+
+</html>

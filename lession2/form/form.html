@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./stylesheet/form.css">
+    <title>form表单</title>
+</head>
+
+<body>
+    <table class="outertable" width="710" bgcolor="#FFFFFF" border="0px" cellpadding="2" cellspacing="0" bgcolor="#CCCCCC">
+        <thead>
+            <tr>
+                <th align="left">
+                    <img class="img" src="./images/qdjjlogo.gif">
+                </th>
+                <th align="right" valign="bottom">
+                    <a href="">
+                        <font color="#FF0000">注册</font>
+                    </a>
+                    <a href="">
+                        <font color="#FF0000">登录</font>
+                    </a>
+                    <a href="">
+                        <font color="#FF0000">收藏本站</font>
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" height="50px"><h2>新教员注册第二步</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" align="center">
+                    <form action="#" method="get">
+                        <table class="table" bgcolor="#FFFFFF" border="1px" cellpadding="2" cellspacing="0" bgcolor="#CCCCCC">
+                            <tbody>
+                                <tr>
+                                    <th align="left" colspan="2" bgcolor="#EEEEEE">
+                                        <strong>
+                    		<font color="#003399">基本信息</font>
+                    	</strong>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>真实姓名:</td>
+                                    <td width="500">
+                                        <input class="input" type="text" id="truename" name="truename" maxlength="20" placeholder="姓名">
+                                        <br/>
+                                        <font color="#FF0000">注意：</font>姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">身份证/护照：</td>
+                                    <td class="blue">
+                                        <input class="input" type="text" id="idcard" name="idcard" maxlength="30" placeholder="身份证/护照"> (此项将严格保密，不对外公开)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>出生年月日：
+                                    </td>
+                                    <td>
+                                        <input type="date" id="date" name="date/">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>性别</td>
+                                    <td>
+                                        <select name="sex">
+                                            <option value="请选择...">请选择</option>
+                                            <option value="men">男</option>
+                                            <option value="women">女</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>专业：</td>
+                                    <td class="blue">
+                                        <input class="input" type="text" id="profession" name="profession" maxlength="20" placeholder="专业">请如实填写专业全名，以学生证为准。此部分将在认证时严格审查，与证件不符者将不能通过认证！
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>目前（最高）学历</td>
+                                    <td>
+                                        <select name="knowlege" id="knowlege">
+                                            <option value="" selected="">—请选择—</option>
+                                            <option value="大专以下">大专以下</option>
+                                            <option value="大专">大专</option>
+                                            <option value="本科">本科</option>
+                                            <option value="硕士">硕士</option>
+                                            <option value="博士">博士</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>目前（最高）学历：</td>
+                                    <td>
+                                        <select name="degree" size="1" id="degree">
+                                            <option value="" selected="">—请选择—</option>
+                                            <option value="大专在读">大专在读</option>
+                                            <option value="本科大一">本科大一</option>
+                                            <option value="本科大二">本科大二</option>
+                                            <option value="本科大三">本科大三</option>
+                                            <option value="本科大四">本科大四</option>
+                                            <option value="本科大五">本科大五</option>
+                                            <option value="在读硕士生">在读硕士生</option>
+                                            <option value="硕士进修老师">硕士进修老师</option>
+                                            <option value="在读博士生">在读博士生</option>
+                                            <option value="其他学生">其他学生</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>籍贯(生源地)：</td>
+                                    <td>
+                                        <select name="nationality" id="nationality">
+                                            <option value="" selected="">—请选择—</option>
+                                            <option value="北京">北京</option>
+                                            <option value="上海">上海</option>
+                                            <option value="天津">天津</option>
+                                            <option value="重庆">重庆</option>
+                                            <option value="辽宁">辽宁</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>毕业/就读高校：</td>
+                                    <td>
+                                        <select name="university" id="university">
+                                            <option value="" selected="">—请选择—</option>
+                                            <option value="北京大学">北京大学</option>
+                                            <option value="清华大学">清华大学</option>
+                                            <option value="复旦大学">复旦大学</option>
+                                            <option value="上海外国语大学">上海外国语大学</option>
+                                            <option value="沈阳师范大学">沈阳师范大学</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>高中母校：</td>
+                                    <td class="blue">
+                                        <input class="input" type="text" maxlength="20" id="middleschool" name="middleshool" placeholder="高中母校"> 请填全称（省份、市、中学名称，如果是省市重点中学请注明）
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#EEEEEE" colspan="2" align="left">
+                                        <strong>联系方式</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>手机/小灵通： </td>
+                                    <td class="blue">
+                                        <input class="input" type="text" maxlength="20" id="phone" name="phone" placeholder="手机/小灵通"> 最好留下多个联系方式，换号时请及时更新联系方式
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>目前居住地：</td>
+                                    <td>
+                                        <select name="home" id="home">
+                                            <option value="" selected="">—请选择—</option>
+                                            <option value="北京">北京</option>
+                                            <option value="上海">上海</option>
+                                            <option value="天津">天津</option>
+                                            <option value="重庆">重庆</option>
+                                            <option value="辽宁">辽宁</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>Email:</td>
+                                    <td class="blue">
+                                        <input class="input" type="email" maxlength="20" id="email" name="email" placeholder="email">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>QQ:</td>
+                                    <td class="blue">
+                                        <input class="input" type="text" maxlength="20" id="qq" name="qq" placeholder="QQ">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>详细地址:</td>
+                                    <td class="blue">
+                                        <input class="input" type="text" maxlength="20" id="address" name="address" placeholder="地址">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#EEEEEE" colspan="2" align="left">
+                                        <strong>家教信息</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>普通话：</td>
+                                    <td>
+                                        <select name="home" id="home">
+                                            <option value="标准">标准</option>
+                                            <option value="一般" selected="">一般</option>
+                                            <option value="差">差</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF0000">*</font>第一外语：</td>
+                                    <td>
+                                        <select name="language1" id="language1">
+                                            <option value="英语" selected="">英语</option>
+                                            <option value="日语">日语</option>
+                                            <option value="法语">法语</option>
+                                        </select>
+                                        <select name="level1" id="level1">
+                                            <option value="一级">一级</option>
+                                            <option value="二级">二级</option>
+                                            <option value="三级">三级</option>
+                                            <option value="专业">专业</option>
+                                            <option value="一般" selected="">一般</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">第二外语：</td>
+                                    <td>
+                                        <select name="language1" id="language1">
+                                            <option value="无" selected="">无</option>
+                                            <option value="英语">英语</option>
+                                            <option value="日语">日语</option>
+                                            <option value="法语">法语</option>
+                                        </select>
+                                        <select name="level1" id="level1">
+                                            <option value="一级">一级</option>
+                                            <option value="二级">二级</option>
+                                            <option value="三级">三级</option>
+                                            <option value="专业">专业</option>
+                                            <option value="一般" selected="">一般</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>自我描述与
+                                        <br>特长展示： </td>
+                                    <td class="blue">
+                                        <textarea id="good" rows="6" cols="60"></textarea>
+                                        <br> 全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>家教经历
+                                        <br>（教学成果）： </td>
+                                    <td class="blue">
+                                        <textarea id="goodat" rows="6" cols="60"> </textarea>
+                                        <br> 这些内容是对您教学水平最有力和最直接的反映！是学员选择您的一项重要依据。字数500字以内。最好说明辅导时间、学生年级、辅导效果。可参考以下形式：2008年10月-12月，市南区初三 学生英语，期终考试从全班第30名上升至第10名，英语从60分提升到80分。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>*可辅导的科目
+                                        <br>（不超过10项）：</td>
+                                    <td>
+                                        <font color="#FF0000">教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验。</font>
+                                        <br>
+                                        <fieldset>
+                                            <legend>小学</legend>
+                                            <input name="job" type="checkbox" value="小学语文">小学语文
+                                            <input name="job" type="checkbox" value="小学数学">小学数学
+                                            <input name="job" type="checkbox" value="小学英语">小学英语
+                                            <input name="job" type="checkbox" value="小学奥数">小学奥数
+                                            <input name="job" type="checkbox" value="小学全科">小学全科
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>初中</legend>
+                                            <input name="job" type="checkbox" value="初中语文">初中语文
+                                            <input name="job" type="checkbox" value="初中英语">初中英语
+                                            <input name="job" type="checkbox" value="初中数学">初中数学
+                                            <input name="job" type="checkbox" value="初中化学">初中化学
+                                            <input name="job" type="checkbox" value="初中地理">初中地理
+                                            <input name="job" type="checkbox" value="初中生物">初中生物
+                                            <input name="job" type="checkbox" value="初中数理化">初中数理化
+                                            <input name="job" type="checkbox" value="初中全科">初中全科
+                                            <input name="job" type="checkbox" value="初中奥数">初中奥数
+                                            <input name="job" type="checkbox" value="中考语文">中考语文
+                                            <input name="job" type="checkbox" value="中考英语">中考英语
+                                            <input name="job" type="checkbox" value="中考数学">中考数学
+                                            <input name="job" type="checkbox" value="中考物理">中考物理
+                                            <input name="job" type="checkbox" value="中考化学">中考化学
+                                            <input name="job" type="checkbox" value="中考数理化">中考数理化
+                                            <input name="job" type="checkbox" value="中考全科">中考全科
+                                            <input name="job" type="checkbox" value="中考心理辅导">中考心理辅导
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>高中</legend>
+                                            <input name="job" type="checkbox" value="高一高二语文 ">高一高二语文
+                                            <input name="job" type="checkbox" value="高一高二英语 ">高一高二英语 数学
+                                            <input name="job" type="checkbox" value="高一高二数学 ">高一高二数学
+                                            <input name="job" type="checkbox" value="高一高二物理">高一高二物理
+                                            <input name="job" type="checkbox" value="高一高二地理">高一高二地理
+                                            <input name="job" type="checkbox" value="高一高二生物 ">高一高二生物
+                                            <input name="job" type="checkbox" value="高考语文">高考语文
+                                            <input name="job" type="checkbox" value="高考英语">高考英语
+                                            <input name="job" type="checkbox" value="高考数学">高考数学
+                                            <input name="job" type="checkbox" value="高考物理">高考物理
+                                            <input name="job" type="checkbox" value="高考化学">高考化学
+                                            <input name="job" type="checkbox" value="高考数理化">高考数理化
+                                            <input name="job" type="checkbox" value="高考美术">高考美术
+                                            <input name="job" type="checkbox" value="高考理综">高考理综
+                                            <input name="job" type="checkbox" value="高考文综">高考文综
+                                            <input name="job" type="checkbox" value="高考心理辅导">高考心理辅导
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>大学</legend>
+                                            <input name="job" type="checkbox" value="高等数学">高等数学
+                                            <input name="job" type="checkbox" value="考研数学">考研数学
+                                        </fieldset>
+                                        <fieldset>
+                                            <legend>英语</legend>
+                                            <input name="job" type="checkbox" value="英语口语">英语口语
+                                            <input name="job" type="checkbox" value="新概念英语">新概念英语 数学
+                                            <input name="job" type="checkbox" value="牛津英语">牛津英语
+                                            <input name="job" type="checkbox" value="英语四级">英语四级
+                                            <input name="job" type="checkbox" value="英语六级 ">英语六级
+                                            <input name="job" type="checkbox" value="GRE ">GRE
+                                            <input name="job" type="checkbox" value="托福 ">托福
+                                            <input name="job" type="checkbox" value="雅思">雅思
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>最擅长的科目 ： </td>
+                                    <td class="blue">
+                                        <input id="goodjob" class="input" type="text">请填写你最拿手、最有经验的科目，例如：“英语、初中数理化、高三数学”，越具体越好，不超过三项
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>*方便授课区域：
+                                    </td>
+                                    <td>
+                                        <table border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>-----市南-----</td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" valign="top">
+                                                        <input name="area" type="checkbox" value="团岛">团岛
+                                                        <input name="area" type="checkbox" value="火车站（栈桥)">火车站（栈桥）
+                                                        <input name="area" type="checkbox" value="中山路">中山路
+                                                        <input name="area" type="checkbox" value="海大鱼山校区">海大鱼山校区
+                                                        <input name="area" type="checkbox" value="澳柯玛立交桥">澳柯玛立交桥
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tr>
+                                                <td>-----市北-----</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="top">
+                                                    <input name="area" type="checkbox" value="市立医院（西部）">市立医院（西部）
+                                                    <input name="area" type="checkbox" value="小港">小港
+                                                    <input name="area" type="checkbox" value="山东路家乐福">山东路家乐福
+                                                    <input name="area" type="checkbox" value="青岛图书馆 ">青岛图书馆
+                                                    <input name="area" type="checkbox" value="内蒙古路长途汽车站 ">内蒙古路长途汽车站
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>可授课时间：</td>
+                                    <td class="blue">
+                                        <input id="goodtime" class="input" type="text" value="授课无时间限制"> （请注意及时更新授课时间）
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <font color="#FF00000">*</font>辅导方式：</td>
+                                    <td>
+                                        <input type="radio" name="mode" checked="checked" value="教员上门">教员上门
+                                        <input type="radio" name="mode" value="学员上门">学员上门
+                                        <input type="radio" name="mode" value="网上辅导">网上辅导
+                                        <input type="radio" name="mode" value="可协商">可协商
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center" valign="center" height="60">
+                                        <input id="submit" name="submit" type="submit" value="提交">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            	<td colspan="2" height="50px" align="center" valign="top">Copyright © 2003～2008 版权所有 青岛家教网</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

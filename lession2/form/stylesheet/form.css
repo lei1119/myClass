@@ -1,0 +1,50 @@
+body {
+    background-color: #00868B;
+}
+
+td th {
+    font-size: 12px;
+    line-height: 150%;
+}
+
+strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: #003399;
+}
+
+input {
+    cursor: auto;
+    padding: 1px;
+    border: 2px inset;
+}
+
+.input {
+    width: 200px;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.table {
+    width: 90%;
+}
+
+.outertable{
+	border-radius: 20px;
+	margin: 10px auto;
+	font-size: 12px;
+}
+
+.img{
+	padding-left: 10px;	
+}
+
+#submit{
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	border: 2px inset;
+}

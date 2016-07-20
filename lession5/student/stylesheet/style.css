@@ -1,0 +1,40 @@
+@charset 'utf-8';
+.studiv {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.input {
+    text-align: 30px;
+    width: 120px;
+    font-size: 18px;
+    padding-left: 3px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #AAAAAA;
+}
+
+.input:hover {
+    border: 1px solid #838B8B;
+}
+
+.input:focus {
+    border: 1px solid #87CEFA;
+}
+
+.btn {
+    width: 60px;
+    height: 34px;
+    border: none;
+    line-height: 34px;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    background-color: #3385FF;
+    color: #FFF;
+    border-bottom: 1px solid #2d78f4;
+}
+
+.btn:hover {
+    background-color: #6686FF;
+}

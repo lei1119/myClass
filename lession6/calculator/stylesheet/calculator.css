@@ -1,0 +1,81 @@
+input{
+    outline: none;
+}
+
+.calculatortitle {
+    width: 600px;
+    height: 30px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.calculatordiv {
+    width: 600px;
+    height: 600px;
+    background: #A6A6A6;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+
+.calculatorul {
+    width: 600px;
+    height: 500px;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.calculatorul li {
+    list-style-type: none;
+}
+
+.calculatorul input {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    background: none;
+    float: left;
+    margin: 10px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3385FF;
+    color: #FFF;
+    border: 1px solid #2d78f4;
+}
+
+.calculatorul input:hover {
+    background-color: #6686FF;
+}
+
+.calculatorout {
+    display: inline-block;
+    width: 580px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 5px;
+    /*border-radius: 10px;*/
+    /*background-color: #FFF;*/
+    float: left;
+    /*border: #8F8F8F solid 1px;*/
+    margin-left: 8px;
+    margin-top: 15px;
+    color: #FFF;
+}
+
+#equal {
+    height: 140px;
+    float: right;
+    line-height: 130px;
+    font-size: 100px;
+}
+
+#zero,
+#delete {
+    width: 220px;
+}

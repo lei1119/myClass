@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>瀑布流</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/waterfall.css">
+  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div>
+      <div class="nav">
+        <span>传统翻页版本</span>
+        <span class="nav_slide">|</span>
+        <span>百度图片APP</span>
+        <span class="nav_slide">|</span>
+        <span>百度首页</span>
+        <span class="nav_slide">|</span>
+        <span>我的图片</span>
+        <span class="nav_slide">|</span>
+        <span>hivandu</span>
+      </div>
+      <div class="searchbar">
+        <img src="http://img0.bdstatic.com/img/image/imglogo-r.png" alt="" style="width: 137px;height: 46px;">
+        <div>
+          <div class="menu">
+            <span>新闻</span>
+            <span>网页</span>
+            <span>贴吧</span>
+            <span>知道</span>
+            <span>音乐</span>
+            <span>图片</span>
+            <span>视频</span>
+            <span>地图</span>
+            <span>百科</span>
+            <span>文库</span>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="search here">
+            <input type="button" value="百度一下">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search_tag">
+      <span>相关搜索</span>
+      <span><a href="#">世界顶尖摄影作品</a></span>
+      <span><a href="#">抱抱创意摄影</a></span>
+      <span><a href="#">睡过创意摄影</a></span>
+      <span><a href="#">事物创意摄影</a></span>
+      <span><a href="#">创意摄影头像</a></span>
+      <span><a href="#">创意微距摄影</a></span>
+      <span><a href="#">摄影笔画创意</a></span>
+    </div>
+  </div>
+  <div class="container" id="container">
+    <div class="box">
+      <div class="content"><img src="images/1.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/2.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/3.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/4.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/5.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/6.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/7.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/8.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/9.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/10.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/11.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/12.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/13.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/14.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/15.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/16.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/17.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/18.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/19.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/20.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/21.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/22.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/23.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/24.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/25.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/26.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/1.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/2.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/3.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/4.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/5.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/6.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/7.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/8.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/9.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/10.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/11.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/12.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/13.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/14.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/15.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/16.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/17.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/18.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/19.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/20.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/21.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/22.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/23.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/24.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/25.jpg" alt="" title=""></div>
+    </div>
+    <div class="box">
+      <div class="content"><img src="images/26.jpg" alt="" title=""></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="javascript/waterfall.js"></script>
+</body>
+
+</html>
